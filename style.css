@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color: black;
+}
