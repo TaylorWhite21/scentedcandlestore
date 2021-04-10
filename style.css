@@ -8,8 +8,24 @@ header {
     background-color: crimson;
 }
 
-h1 {
+h1 h2  {
     font-family: Arial, Helvetica, sans-serif;
     background-color: blue;
     color: black;
 }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+button {
+    background-color: limegreen;
+    color: black;
+}
+
