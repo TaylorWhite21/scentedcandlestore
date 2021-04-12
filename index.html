@@ -6,61 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+
 </head>
+
     <body>
+        <header>
+            <center>
+            <h1 id="title">Virgin Candle Co.</h1>
+            <script src="js/greeting.js"></script> 
+            <h2 id="title">PUREST CANDLES ON EARTH</h2>
+            <h3 id="title">So good every software developer will want their own!</h3>
 
-    <header>
-        <h1 class="animate__animated animate__bounce">Virgin Candle Co.</h1>
-        <h1 id="title"></h1>
-        <h2 id="title">PUREST CANDLES ON EARTH</h2>
-        <h3 id="title">So good every software developer will want their own!</h3>
-
-        <nav id="nav-one">
+            <nav id="navbar">
             <ul>
                 <button><a href='https://www.google.com'>Home</a></button>
                 <button><a href='https://www.google.com'>Imported Candles</a></button>
                 <button><a href='https://www.google.com'>Holiday Candles</a></button>
             </ul>
-        </nav>
-    </header>
+            </nav>
+            </center>
+        </header>
 
     <nav>
-        <h2>Welcome to Virgin Candles other wise known as VIRGINS</h2>
-        <p>We have scoured the world to find the best ingredience to make the finest scents your nose has ever had the pleasure of smelling!</p>
-        <p>When you buy a Virgin, you know that your buying a candle that has never been lit. There has never been a flame to light its wick.</p><p>Thats where you come in.</p><p>We want you to show this candle something its never experienced before.</p>
+        <h2 id="title">Welcome to Virgin Candles other wise known as VIRGINS</h2>
+            <p id="title">We have scoured the world to find the best ingredients to make the finest scents your nose has ever had the pleasure of smelling!</p>
+            <p id="title">When you buy a Virgin, you know that your buying a candle that has never been lit. There has never been a flame to light its wick.</p><p>Thats where you come in.</p><p>We want you to show this candle something its never experienced before.</p>
     </nav>
     
     <main>
-
-
             <article>
-                <h1>Joy Holiday Candles</h1>
-                <img src="https://www.candlecrest.com/wp-content/uploads/2019/11/Joy-Holiday-Jar-Candles-by-Candle-Crest-Soy-Candles-Inc.jpg" alt="">
-                <p>These beautiful candles are poured in a frosted red 14oz  jar featuring the word “Joy” around the candle. The “o” is actually a snowflake, adding even more festive flare! When lit, the transparent words on the jar gives a warm flicker appearance from the light of the wick and you can actually see the flame – so beautiful! A red and white twine bow completes it’s festive appearance. </p>
+                <h1 id="product">Joy Holiday Candles</h1>
+                <img id="myImg" src="https://www.candlecrest.com/wp-content/uploads/2019/11/Joy-Holiday-Jar-Candles-by-Candle-Crest-Soy-Candles-Inc.jpg" alt="Holiday Candles" style="width:100%;max-width:300px">
+                
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+                <script src="/js/myModal.js"></script>
+                
+                <p id="title">These beautiful candles are poured in a frosted red 14oz  jar featuring the word “Joy” around the candle. The “o” is actually a snowflake, adding even more festive flare! When lit, the transparent words on the jar gives a warm flicker appearance from the light of the wick and you can actually see the flame – so beautiful! A red and white twine bow completes it’s festive appearance.</p>
+                
                 <ul>
-                <li>Price: $18.95</li> <button><a href=''>Add to Cart</a></button>
-                 </ul>
-            </article>
-
-            <article>
-                <h1>Green and Red Candles</h1>
-                    <img src="https://images.unsplash.com/photo-1574772049816-306b6b24e002?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2139&q=80" alt="">
-                <p>Add some Holiday cheer to your living space with our colored scented candles. </p>  
-                <ul>
-                    <li>Price: $39.99</li> <button><a href=''>Add to Cart</a></button>
+                    <li>Price: $18.95</li> <button><a href=''>Add to Cart</a></button>
                 </ul>
             </article>
 
             <article>
-                <h1>Believe in the Magic</h1>
+                <h1 id="product">Green and Red Candles</h1>
+
+                <div class="img-magnifier-container">
+                    <img id="myimage" src="https://images.unsplash.com/photo-1574772049816-306b6b24e002?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2139&q=80" style="width:100%;max-width:300px;height: 272px;" alt="Color Candles">
+                </div>
+                
+                <p id="title">Add some Holiday cheer to your living space with our colored scented candles. </p>  
+                    <ul>
+                        <li>Price: $39.99</li> <button><a href=''>Add to Cart</a></button>
+                    </ul>
+            </article>
+
+            <article>
+                <h1 id="product">Believe in the Magic</h1>
                 <img src="https://images.unsplash.com/photo-1606008628744-31c2fc22bf95?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
-                <p>Spread the magic of christmas with these special and handcrafted Christmas candles </p>
+                <p id="title">Spread the magic of christmas with these special and handcrafted Christmas candles </p>
                 <ul>
                 <li>Price: $29.99</li><button><a href=''>Add to Cart</a></button>
                 </ul>
             </article>
-
     </main>
 
     <footer>
@@ -77,11 +90,4 @@
         </section>
     </footer>
 </body>
-</html>
-
-
-
-
-
-
 </html>

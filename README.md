@@ -1,2 +1,2 @@
 # scentedcandlestore
-collab with 
+collab with Grazda and Medina
