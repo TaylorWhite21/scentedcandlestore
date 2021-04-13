@@ -21,7 +21,7 @@ function showGreeting() {
         greeting = 'Welcome!';
     }
 
-    return ('<h3>' + greeting + '</h3>');
+    return document.write('<h3>' + greeting + '</h3>');
 }
 
 
@@ -43,7 +43,7 @@ function addUsername () {
     var name = prompt("What is your name?")
     var message = "Hello, " + name;
     
-    return ('<h3>' + message + '</h3>');
+    return document.write('<h3>' + message + '</h3>');
 
 }
 
