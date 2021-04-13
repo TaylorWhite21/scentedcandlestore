@@ -1,34 +1,56 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
 }
 
 header {
-    color: #454545;
-    background: #f2ecdf;
+  font-family: "Sofia", sans-serif; 
 }
+
+h1  {
+  font-family: "Sofia", sans-serif;
+  color: rgb(8, 0, 0);
+  text-align: center
+}
+
+.navcontainer {
+  margin-top: 50px;
+}
+
+h2  {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(243, 12, 12);
+  text-align: center}
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    color: darkred;
+    color: black;
+    background-color: cornsilk;
 }
 
 li {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    text-align: center;
 }
 
 button {
     background-color: limegreen;
     color: black;
     text-decoration: none;
+    text-align: center;
+    float: left;
+}
+
+nav {
+    text-align: center;
+    font-size: xx-small;
+    text-decoration: none;
 }
 
 #navbar {
-  overflow: hidden;
-  background-color: #333;
     text-align: center;
-    font-size: xx-small;  
+    text-decoration: none;
+
 }
 
 #title {
@@ -40,6 +62,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: small;
+    margin-left: 100px;
 }
 
 article {   
@@ -48,10 +71,10 @@ article {
 }
 
 img {
-     border: 2px solid crimson;
-    width: 50%;
+    border: 2px solid crimson;
     text-align: center;
     margin-left: 50px;
+    border-radius: 50%;
 }
 
 div {
@@ -64,93 +87,36 @@ footer {
     width: 1000px;
     height: 200px;
     margin-top: 500px;
-
 }
 
+html {
+  background-image:url(https://images.pexels.com/photos/1303098/pexels-photo-1303098.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
+  background-size: cover;
+}
 
+.container {
+  margin-top: 20px;
+  position: relative;
+}
 
-/* Style the Image Used to Trigger the Modal */
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  #myImg:hover {opacity: 0.7;}
-  
-  /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  }
-  
-  /* Modal Content (Image) */
-  .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-  }
-  
-  /* Caption of Modal Image (Image Text) - Same Width as the Image */
-  #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-  }
-  
-  /* Add Animation - Zoom in the Modal */
-  .modal-content, #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-  }
-  
-  @keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
-  }
-  
-  /* The Close Button */
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
-    .modal-content {
-      width: 100%;
-    }
-  }
-  
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
+.container2 {
+  position: relative;
+}
+
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
