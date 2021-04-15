@@ -51,22 +51,22 @@ function addUsername () {
 }
 
 let buyCandles = function () {
-    let whichCandle = prompt('Which candle would you like? joy, holiday, or magic?')
+    let whichCandle = prompt('Which candle would you like? Joy, Holiday, Magic?')
     let candle;
     
     while (whichCandle !== 'joy' && whichCandle !== 'holiday'  && whichCandle !== 'magic')
-    whichCandle = prompt('Please enter a valid option')
+    whichCandle = prompt('Please enter Joy, Holiday, Magic')
 
     if (whichCandle === 'joy') {
-        candle = '<img src="https://www.candlecrest.com/wp-content/uploads/2019/11/Joy-Holiday-Jar-Candles-by-Candle-Crest-Soy-Candles-Inc.jpg">';
+        candle = '<img height=500px width=500px src="https://www.candlecrest.com/wp-content/uploads/2019/11/Joy-Holiday-Jar-Candles-by-Candle-Crest-Soy-Candles-Inc.jpg">';
     }
 
     else if (whichCandle === 'holiday') {
-        candle = '<img src="https://images.unsplash.com/photo-1574772049816-306b6b24e002?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2139&q=80">';
+        candle = '<img height=500px width=500px src="https://images.unsplash.com/photo-1574772049816-306b6b24e002?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2139&q=80">';
     }
 
      else if (whichCandle === 'magic') {
-        candle = '<img src="https://images.unsplash.com/photo-1606008628744-31c2fc22bf95?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">';
+        candle = '<img height=500px width=500px src="https://images.unsplash.com/photo-1606008628744-31c2fc22bf95?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">';
     }
 
     return candle;
